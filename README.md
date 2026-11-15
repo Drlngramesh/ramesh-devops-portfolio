@@ -2,6 +2,9 @@
 
 Personal portfolio website for Ramesh Renangi.
 
+- GitHub profile: https://github.com/Renangi-Ramesh
+- Repository: https://github.com/Renangi-Ramesh/ramesh-devops-portfolio
+
 - Domain: https://rameshdevops.in
 - Hosting: GitHub Pages
 - Deployment: GitHub Actions on pushes to `main`
