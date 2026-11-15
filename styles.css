@@ -166,3 +166,8 @@
 @media(max-width:650px){
  .profile-card{bottom:16px;background:rgba(8,15,27,.32)}
 }
+
+
+/* Recognisable technology brand marks in the expertise cards */
+.card-symbol.brand-symbol{width:38px;height:38px;background:rgba(255,255,255,.045);border-color:rgba(154,179,218,.22);padding:8px}
+.card-symbol.brand-symbol img{display:block;width:100%;height:100%;object-fit:contain}
