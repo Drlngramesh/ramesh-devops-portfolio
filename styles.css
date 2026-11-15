@@ -66,3 +66,24 @@
  .hero-description{margin-top:18px}
  .hero-foot{margin-top:34px}
 }
+
+
+/* Center the identity panel beneath the portrait instead of stretching it edge to edge */
+.profile-card{
+ left:50%;
+ right:auto;
+ width:min( calc(100% - 80px), 620px);
+ bottom:48px;
+ transform:translateX(-50%);
+ padding:17px 22px 16px;
+}
+@media(max-width:650px){
+ .profile-card{
+  width:calc(100% - 36px);
+  left:50%;
+  right:auto;
+  bottom:30px;
+  transform:translateX(-50%);
+  padding:14px 16px;
+ }
+}
