@@ -31,3 +31,11 @@
  .project-art{padding:18px}
  .project-logo-frame{width:min(66%,205px);max-width:205px;max-height:205px}
 }
+
+/* Insure India project identity */
+.project-insure .project-art{background:radial-gradient(ellipse at 50% 48%,rgba(39,174,186,.22),transparent 58%)}
+.project-insure .insure-wordmark{gap:13px;letter-spacing:0}
+.project-insure .insure-emblem{width:76px;height:76px;display:grid;place-items:center;border:1px solid rgba(111,224,216,.45);border-radius:24px;background:rgba(8,20,37,.55);color:#67d5d1;box-shadow:0 12px 38px rgba(0,0,0,.2)}
+.project-insure .insure-emblem svg{width:48px;height:48px}
+.project-insure .insure-wordmark strong{font:800 clamp(25px,3.3vw,38px)/1 var(--sans);letter-spacing:-.055em;color:#f0f5ff}
+.project-insure .insure-wordmark span{margin:0;color:#9eb5ca;font-size:8px;letter-spacing:.19em}
