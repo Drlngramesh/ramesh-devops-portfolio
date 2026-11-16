@@ -1,21 +1,50 @@
 # Ramesh Renangi — AWS DevOps Portfolio
 
-Personal portfolio website for Ramesh Renangi.
+Welcome! This repository contains the source for my personal portfolio website.
 
-- GitHub profile: https://github.com/Renangi-Ramesh
-- Repository: https://github.com/Renangi-Ramesh/ramesh-devops-portfolio
+**Portfolio:** https://rameshdevops.in  
+**GitHub:** https://github.com/Renangi-Ramesh  
+**Location:** Bengaluru, India
 
-- Domain: https://rameshdevops.in
+## Focus
+
+AWS cloud operations, Linux administration, application deployment, CI/CD automation, and monitoring.
+
+## Technology Stack
+
+- **Cloud:** AWS (EC2, IAM, VPC, S3, Route 53, CloudWatch)
+- **CI/CD:** GitHub Actions
+- **Containers:** Docker; foundational Kubernetes knowledge
+- **Infrastructure as Code:** Terraform (foundational/practical learning)
+- **Web hosting:** Nginx, Gunicorn
+- **Monitoring:** Prometheus, Grafana
+- **Database:** PostgreSQL
+- **Scripting:** Python and Bash fundamentals
+- **Website:** HTML, CSS, JavaScript
+- **Hosting:** GitHub Pages with custom domain
+
+## Featured Work
+
+| Project | Focus |
+|---|---|
+| Rudra Ride | Backend deployment, server configuration, PostgreSQL operations, and scheduled workflows |
+| Insure India | AWS environments, Nginx/Gunicorn, DNS, SSL, database operations, and monitoring |
+| Edu Pravahaa | Application hosting and deployment-related infrastructure |
+
+## Repository Structure
+
+The website source is maintained in this repository. The PROFILE-README.md file contains a GitHub profile README draft that can be copied into a separate repository named Renangi-Ramesh to display it on the GitHub profile.
+
+## Deployment
+
 - Hosting: GitHub Pages
-- Deployment: GitHub Actions on pushes to `main`
-- Stack: HTML, CSS, JavaScript
+- Domain: rameshdevops.in
+- Deployment workflow: GitHub Actions on pushes to main
+- GitHub Pages source should be set to **GitHub Actions** under **Settings → Pages**.
 
-## Enable Pages
+Keep the existing CNAME file and DNS records aligned with the custom domain. Do not remove existing MX or email-related TXT records when changing DNS.
 
-In repository Settings → Pages, set **Build and deployment → Source** to **GitHub Actions**.
+## Contact
 
-The `CNAME` file configures the custom domain. Configure the matching DNS records at your domain registrar, preserving existing MX and email-related TXT records.
-
-## Content
-
-About, technical skills, project summaries (Rudra Ride, Insure India, Edu Pravahaa), experience, education and contact details.
+- Portfolio: https://rameshdevops.in
+- GitHub: https://github.com/Renangi-Ramesh
